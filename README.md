@@ -4,7 +4,8 @@
 
 RepoAtlas scans a repository on your machine and generates an interactive architecture map, dependency graph, API endpoint catalog, and risk hotspot analysis — without uploading a single byte of your code.
 
-![RepoAtlas Dashboard](docs/screenshots/dashboard-placeholder.png)
+![RepoAtlas Dashboard]
+<img width="944" height="475" alt="image" src="https://github.com/user-attachments/assets/3c63d956-a9fa-4fba-86ac-979669f8e7e8" />
 
 > Screenshot placeholder — run `make dev` and capture your dashboard after scanning the demo repo.
 
