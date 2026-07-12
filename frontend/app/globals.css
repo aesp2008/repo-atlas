@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0e17;
+  --foreground: #f3f4f6;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  min-height: 100vh;
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-atlas-surface/80 backdrop-blur-xl border border-atlas-border;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-indigo-400 via-violet-400 to-cyan-400 bg-clip-text text-transparent;
+  }
+}
+
+.react-flow__node {
+  font-size: 11px;
+}
+
+.react-flow__controls button {
+  background: #111827 !important;
+  border-color: #1f2937 !important;
+  color: #f3f4f6 !important;
+}
+
+.react-flow__controls button:hover {
+  background: #1f2937 !important;
+}
+
+.react-flow__minimap {
+  background: #111827 !important;
+}
